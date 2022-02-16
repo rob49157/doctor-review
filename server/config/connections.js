@@ -8,7 +8,6 @@ const connectionString =
 
 connect(connectionString, {
   useNewUrlParser: true,
-  useCreateIndex: true,
   useUnifiedTopology: true
 });
 
